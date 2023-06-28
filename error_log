@@ -1,0 +1,516 @@
+[27-Apr-2022 07:51:43 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\SettingController::profile() in /home2/site2demo/public_html/celebs/app/Http/Controllers/SettingController.php on line 32
+[03-Jun-2022 10:37:23 UTC] PHP Warning:  Uncaught ErrorException: require_once(/home2/site2demo/public_html/celebs/app/Http/Controllers/vendor/autoload.php): failed to open stream: No such file or directory in /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php:85
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home2/site2dem...', 85, Array)
+#1 /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php(85): require_once()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\ProfileController->onfidoapi()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('onfidoapi', Array)
+#4 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Routing/Route.php(262): Illuminate in /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php on line 85
+[03-Jun-2022 10:37:23 UTC] PHP Fatal error:  App\Http\Controllers\ProfileController::onfidoapi(): Failed opening required '/home2/site2demo/public_html/celebs/app/Http/Controllers/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php on line 85
+[03-Jun-2022 10:47:07 UTC] PHP Warning:  Uncaught ErrorException: require_once(/home2/site2demo/public_html/celebs/app/Http/Controllers/vendor/autoload.php): failed to open stream: No such file or directory in /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php:85
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home2/site2dem...', 85, Array)
+#1 /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php(85): require_once()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\ProfileController->onfidoapi()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('onfidoapi', Array)
+#4 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Routing/Route.php(262): Illuminate in /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php on line 85
+[03-Jun-2022 10:47:07 UTC] PHP Fatal error:  App\Http\Controllers\ProfileController::onfidoapi(): Failed opening required '/home2/site2demo/public_html/celebs/app/Http/Controllers/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php on line 85
+[03-Jun-2022 11:05:14 UTC] PHP Warning:  Uncaught ErrorException: require_once(Onfidoapi): failed to open stream: No such file or directory in /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php:85
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(On...', '/home2/site2dem...', 85, Array)
+#1 /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php(85): require_once()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\ProfileController->onfidoapi()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('onfidoapi', Array)
+#4 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Routing/Route.php(262): Illuminate\Routing\ControllerDispatcher->dispatch(Object(Illuminate\Routing\R in /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php on line 85
+[03-Jun-2022 11:05:14 UTC] PHP Fatal error:  App\Http\Controllers\ProfileController::onfidoapi(): Failed opening required 'Onfidoapi' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php on line 85
+[04-Jun-2022 09:45:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home2/site2demo/public_html/celebs/vendor/autoload.php:2
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/public/index.php(34): require()
+#1 /home2/site2demo/public_html/celebs/index.php(21): require_once('/home2/site2dem...')
+#2 {main}
+  thrown in /home2/site2demo/public_html/celebs/vendor/autoload.php on line 2
+[04-Jun-2022 09:45:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home2/site2demo/public_html/celebs/vendor/autoload.php:2
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/public/index.php(34): require()
+#1 /home2/site2demo/public_html/celebs/index.php(21): require_once('/home2/site2dem...')
+#2 {main}
+  thrown in /home2/site2demo/public_html/celebs/vendor/autoload.php on line 2
+[04-Jun-2022 09:45:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home2/site2demo/public_html/celebs/vendor/autoload.php:2
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/public/index.php(34): require()
+#1 /home2/site2demo/public_html/celebs/index.php(21): require_once('/home2/site2dem...')
+#2 {main}
+  thrown in /home2/site2demo/public_html/celebs/vendor/autoload.php on line 2
+[04-Jun-2022 09:45:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home2/site2demo/public_html/celebs/vendor/autoload.php:2
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/public/index.php(34): require()
+#1 /home2/site2demo/public_html/celebs/index.php(21): require_once('/home2/site2dem...')
+#2 {main}
+  thrown in /home2/site2demo/public_html/celebs/vendor/autoload.php on line 2
+[04-Jun-2022 09:46:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php:11
+Stack trace:
+#0 [internal function]: ComposerAutoloaderInit251bf61c80796fd0a4f2adbb5eb8f42c::loadClassLoader('Composer\\Autolo...')
+#1 /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php(29): spl_autoload_call('Composer\\Autolo...')
+#2 /home2/site2demo/public_html/celebs/vendor/autoload.php(8): ComposerAutoloaderInit251bf61c80796fd0a4f2adbb5eb8f42c::getLoader()
+#3 /home2/site2demo/public_html/celebs/public/index.php(34): require('/home2/site2dem...')
+#4 /home2/site2demo/public_html/celebs/index.php(21): require_once('/home2/site2dem...')
+#5 {main}
+  thrown in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php on line 11
+[04-Jun-2022 09:46:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php:11
+Stack trace:
+#0 [internal function]: ComposerAutoloaderInit251bf61c80796fd0a4f2adbb5eb8f42c::loadClassLoader('Composer\\Autolo...')
+#1 /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php(29): spl_autoload_call('Composer\\Autolo...')
+#2 /home2/site2demo/public_html/celebs/vendor/autoload.php(8): ComposerAutoloaderInit251bf61c80796fd0a4f2adbb5eb8f42c::getLoader()
+#3 /home2/site2demo/public_html/celebs/public/index.php(34): require('/home2/site2dem...')
+#4 /home2/site2demo/public_html/celebs/index.php(21): require_once('/home2/site2dem...')
+#5 {main}
+  thrown in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php on line 11
+[04-Jun-2022 09:47:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php:11
+Stack trace:
+#0 [internal function]: ComposerAutoloaderInit251bf61c80796fd0a4f2adbb5eb8f42c::loadClassLoader('Composer\\Autolo...')
+#1 /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php(29): spl_autoload_call('Composer\\Autolo...')
+#2 /home2/site2demo/public_html/celebs/vendor/autoload.php(8): ComposerAutoloaderInit251bf61c80796fd0a4f2adbb5eb8f42c::getLoader()
+#3 /home2/site2demo/public_html/celebs/public/index.php(34): require('/home2/site2dem...')
+#4 /home2/site2demo/public_html/celebs/index.php(21): require_once('/home2/site2dem...')
+#5 {main}
+  thrown in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php on line 11
+[04-Jun-2022 09:47:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php:11
+Stack trace:
+#0 [internal function]: ComposerAutoloaderInit251bf61c80796fd0a4f2adbb5eb8f42c::loadClassLoader('Composer\\Autolo...')
+#1 /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php(29): spl_autoload_call('Composer\\Autolo...')
+#2 /home2/site2demo/public_html/celebs/vendor/autoload.php(8): ComposerAutoloaderInit251bf61c80796fd0a4f2adbb5eb8f42c::getLoader()
+#3 /home2/site2demo/public_html/celebs/public/index.php(34): require('/home2/site2dem...')
+#4 /home2/site2demo/public_html/celebs/index.php(21): require_once('/home2/site2dem...')
+#5 {main}
+  thrown in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php on line 11
+[04-Jun-2022 09:47:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php:11
+Stack trace:
+#0 [internal function]: ComposerAutoloaderInit251bf61c80796fd0a4f2adbb5eb8f42c::loadClassLoader('Composer\\Autolo...')
+#1 /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php(29): spl_autoload_call('Composer\\Autolo...')
+#2 /home2/site2demo/public_html/celebs/vendor/autoload.php(8): ComposerAutoloaderInit251bf61c80796fd0a4f2adbb5eb8f42c::getLoader()
+#3 /home2/site2demo/public_html/celebs/public/index.php(34): require('/home2/site2dem...')
+#4 /home2/site2demo/public_html/celebs/index.php(21): require_once('/home2/site2dem...')
+#5 {main}
+  thrown in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php on line 11
+[06-Jun-2022 05:17:37 UTC] PHP Warning:  Uncaught ErrorException: require_once(/home2/site2demo/public_html/celebs/app/vendor/autoload.php): failed to open stream: No such file or directory in /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php:85
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home2/site2dem...', 85, Array)
+#1 /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php(85): require_once()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\ProfileController->onfidoapi(Object(Illuminate\Http\Request))
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('onfidoapi', Array)
+#4 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Routing/Route.php(26 in /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php on line 85
+[06-Jun-2022 05:17:37 UTC] PHP Fatal error:  App\Http\Controllers\ProfileController::onfidoapi(): Failed opening required '/home2/site2demo/public_html/celebs/app/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php on line 85
+[06-Jun-2022 05:18:37 UTC] PHP Warning:  Uncaught ErrorException: require_once(/home2/site2demo/public_html/celebs/app/vendor/autoload.php): failed to open stream: No such file or directory in /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php:85
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php(85): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require_once(/h...', '/home2/site2dem...', 85, Array)
+#1 /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php(85): require_once()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Routing/Controller.php(54): App\Http\Controllers\ProfileController->onfidoapi(Object(Illuminate\Http\Request))
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(45): Illuminate\Routing\Controller->callAction('onfidoapi', Array)
+#4 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Routing/Route.php(26 in /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php on line 85
+[06-Jun-2022 05:18:37 UTC] PHP Fatal error:  App\Http\Controllers\ProfileController::onfidoapi(): Failed opening required '/home2/site2demo/public_html/celebs/app/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/site2demo/public_html/celebs/app/Http/Controllers/ProfileController.php on line 85
+[13-Jun-2022 04:45:02 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:45:05 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:45:06 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:45:24 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:45:26 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:45:40 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:45:42 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:45:44 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:46:06 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:46:08 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:46:08 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:46:10 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:46:13 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:46:16 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:46:25 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:46:26 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:46:27 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:46:28 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:46:50 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:46:53 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:47:57 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:48:00 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:48:06 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:48:35 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:49:18 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:49:20 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:49:28 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:49:31 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:49:32 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:49:34 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:49:34 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:57:22 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:57:24 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 04:59:00 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 05:07:13 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 05:07:16 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 05:07:17 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 05:08:46 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 05:13:08 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 05:13:12 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 05:15:55 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 05:22:50 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 05:35:51 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 05:36:32 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 05:40:51 UTC] PHP Warning:  require(/home2/site2demo/public_html/celebs/public/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/site2demo/public_html/celebs/public/index.php on line 34
+[13-Jun-2022 05:40:51 UTC] PHP Fatal error:  require(): Failed opening required '/home2/site2demo/public_html/celebs/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/site2demo/public_html/celebs/public/index.php on line 34
+[13-Jun-2022 05:41:41 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 05:41:43 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 05:41:44 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 05:41:44 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 05:41:45 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 05:41:46 UTC] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:258
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(598): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(579): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(490): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/site2d in /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 258
+[13-Jun-2022 10:02:28 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\SettingController::account() in /home2/site2demo/public_html/celebs/app/Http/Controllers/SettingController.php on line 125
+[13-Jun-2022 10:02:31 UTC] PHP Fatal error:  Cannot redeclare App\Http\Controllers\SettingController::account() in /home2/site2demo/public_html/celebs/app/Http/Controllers/SettingController.php on line 125
+[27-Jun-2022 09:22:19 UTC] PHP Fatal error:  Cannot use Request as Request because the name is already in use in /home2/site2demo/public_html/celebs/app/Http/Controllers/HomeController.php on line 11
+[27-Jun-2022 11:09:06 UTC] PHP Warning:  Uncaught ErrorException: require(/home2/site2demo/public_html/celebs/vendor/composer/../../app/Helper/Helpers.php): failed to open stream: No such file or directory in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php(71): Composer\Util\ErrorHandler::handle(2, 'require(/home2/...', '/home2/site2dem...', 71, Array)
+#1 /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php(71): require()
+#2 /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php(61): composerRequire251bf61c80796fd0a4f2adbb5eb8f42c('2e63b8599f9ae98...', '/home2/site2dem...')
+#3 /home2/site2demo/public_html/celebs/vendor/autoload.php(7): ComposerAutoloaderInit251bf61c80796fd0a4f2adbb5eb8f42c::getLoader()
+#4 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php(43): require_once('/home2/site2dem...')
+#5 phar:///opt/cpanel/composer/bin/composer/src/Composer/Eve in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php on line 71
+[27-Jun-2022 11:09:06 UTC] PHP Fatal error:  composerRequire251bf61c80796fd0a4f2adbb5eb8f42c(): Failed opening required '/home2/site2demo/public_html/celebs/vendor/composer/../../app/Helper/Helpers.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php on line 71
+[27-Jun-2022 11:10:23 UTC] PHP Fatal error:  Cannot declare class Helper, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 11:10:50 UTC] PHP Fatal error:  Cannot declare class Helper, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 11:11:50 UTC] PHP Fatal error:  Cannot declare class Helper, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 11:13:15 UTC] PHP Fatal error:  Cannot declare class Helper, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 11:15:28 UTC] PHP Fatal error:  Cannot declare class Helper, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 11:54:21 UTC] PHP Fatal error:  Cannot declare class Helper, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 11:55:02 UTC] PHP Fatal error:  Cannot declare class Helper, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 11:57:01 UTC] PHP Fatal error:  Cannot declare class Helper, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 11:58:16 UTC] PHP Warning:  Uncaught ErrorException: require(/home2/site2demo/public_html/celebs/vendor/composer/../../App/Helper/Helpers.php): failed to open stream: No such file or directory in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php(71): Composer\Util\ErrorHandler::handle(2, 'require(/home2/...', '/home2/site2dem...', 71, Array)
+#1 /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php(71): require()
+#2 /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php(61): composerRequire251bf61c80796fd0a4f2adbb5eb8f42c('b776718860e7395...', '/home2/site2dem...')
+#3 /home2/site2demo/public_html/celebs/vendor/autoload.php(7): ComposerAutoloaderInit251bf61c80796fd0a4f2adbb5eb8f42c::getLoader()
+#4 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php(43): require_once('/home2/site2dem...')
+#5 phar:///opt/cpanel/composer/bin/composer/src/Composer/Eve in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php on line 71
+[27-Jun-2022 11:58:16 UTC] PHP Fatal error:  composerRequire251bf61c80796fd0a4f2adbb5eb8f42c(): Failed opening required '/home2/site2demo/public_html/celebs/vendor/composer/../../App/Helper/Helpers.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php on line 71
+[27-Jun-2022 11:58:40 UTC] PHP Warning:  Uncaught ErrorException: require(/home2/site2demo/public_html/celebs/vendor/composer/../../App/Helper/Helpers.php): failed to open stream: No such file or directory in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php:71
+Stack trace:
+#0 /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php(71): Composer\Util\ErrorHandler::handle(2, 'require(/home2/...', '/home2/site2dem...', 71, Array)
+#1 /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php(71): require()
+#2 /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php(61): composerRequire251bf61c80796fd0a4f2adbb5eb8f42c('b776718860e7395...', '/home2/site2dem...')
+#3 /home2/site2demo/public_html/celebs/vendor/autoload.php(7): ComposerAutoloaderInit251bf61c80796fd0a4f2adbb5eb8f42c::getLoader()
+#4 /home2/site2demo/public_html/celebs/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php(43): require_once('/home2/site2dem...')
+#5 phar:///opt/cpanel/composer/bin/composer/src/Composer/Eve in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php on line 71
+[27-Jun-2022 11:58:40 UTC] PHP Fatal error:  composerRequire251bf61c80796fd0a4f2adbb5eb8f42c(): Failed opening required '/home2/site2demo/public_html/celebs/vendor/composer/../../App/Helper/Helpers.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home2/site2demo/public_html/celebs/vendor/composer/autoload_real.php on line 71
+[27-Jun-2022 11:59:29 UTC] PHP Fatal error:  Cannot declare class Helper, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 12:14:25 UTC] PHP Fatal error:  Cannot declare class Helper, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 12:14:32 UTC] PHP Fatal error:  Cannot declare class Helper, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 12:17:08 UTC] PHP Fatal error:  Cannot declare class Helper, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 12:17:50 UTC] PHP Fatal error:  Cannot declare class Helpers, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 12:17:53 UTC] PHP Fatal error:  Cannot declare class Helpers, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 12:19:05 UTC] PHP Fatal error:  Cannot declare class Helpers, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 12:20:29 UTC] PHP Fatal error:  Cannot declare class Helpers, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 12:25:11 UTC] PHP Fatal error:  Cannot declare class Helpers, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 12:26:05 UTC] PHP Fatal error:  Cannot declare class Helpers, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 12:26:07 UTC] PHP Fatal error:  Cannot declare class Helpers, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 12:26:10 UTC] PHP Fatal error:  Cannot declare class Helpers, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[27-Jun-2022 12:26:14 UTC] PHP Fatal error:  Cannot declare class Helpers, because the name is already in use in /home2/site2demo/public_html/celebs/app/Helper/Helpers.php on line 3
+[04-Jul-2022 09:11:14 UTC] PHP Fatal error:  Cannot use Request as Request because the name is already in use in /home2/site2demo/public_html/celebs/app/Http/Controllers/HomeController.php on line 12
+[04-Jul-2022 09:11:20 UTC] PHP Fatal error:  Cannot use Request as Request because the name is already in use in /home2/site2demo/public_html/celebs/app/Http/Controllers/HomeController.php on line 12
+[04-Jul-2022 09:11:31 UTC] PHP Fatal error:  Cannot use Request as Request because the name is already in use in /home2/site2demo/public_html/celebs/app/Http/Controllers/HomeController.php on line 12
